@@ -23,3 +23,44 @@ This is a simple Chrome Extension that retrieves and displays the title of the c
    ```bash
    git clone https://github.com/YOUR_USERNAME/tab-title-extension.git
    cd tab-title-extension
+   
+2. Open Chrome and navigate to `chrome://extensions/`.
+
+3. Enable **Developer Mode** (top right).
+
+4. Click **Load unpacked** and select the project folder.
+
+5. Click on the extension icon in your Chrome toolbar to open the popup and test it.
+
+## 📂 Project Structure
+
+```
+tab-title-extension/
+├── manifest.json         # Extension manifest configuration
+├── popup.html            # Popup interface
+├── popup.js              # Logic to fetch tab title
+├── icon.png              # Extension icon
+└── README.md             # Project documentation
+```
+
+## 📄 manifest.json
+
+The extension uses `manifest_version: 3` and requests the `tabs` permission to read the current tab’s metadata.
+
+## 🎨 UI Preview
+
+The popup includes:
+
+* A stylish button
+* A display area showing the current tab’s title
+* Responsive design with clean visuals
+
+## 🧑‍💻 Author
+
+**Your Name**
+LinkedIn: https://www.linkedin.com/in/debkumar-mallick-542119249/
+GitHub: https://github.com/Debkumar1234
+
+## 📃 License
+
+This project is licensed under the [MIT License](LICENSE).
